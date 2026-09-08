@@ -1,0 +1,14 @@
+[project]
+name = 'exercise_3'
+version = '0.1.0'
+description = "exercise 3 - Workflows and FAIR principles"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "biopython>=1.88",
+    "matplotlib>=3.10.9",
+    "pandas>=2.3.3",
+    "pooch>=1.9.0",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+]
