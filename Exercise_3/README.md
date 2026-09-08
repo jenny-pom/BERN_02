@@ -9,8 +9,6 @@ This exercise is a practice in creating a reproducible workflow. We are supposed
 ├── LICENSE
 ├── README.md            # Project documentation
 ├── pyproject.toml       # Dependencies managed via uv
-├── data/                # Folder for data storage, split into raw and processed data
-│   ├── processed_data/
-│   └── raw_data/
+├── data/                # Folder for data storage
 └── notebooks/           # Folder for all jupyter notebooks for interactive analysis
  
