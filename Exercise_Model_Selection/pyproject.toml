@@ -1,0 +1,24 @@
+[project]
+name = "exercise-model-selection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "pompom", email = "je3384la-s@student.lu.se" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "transformers>=5.18.0",
+]
+
+[project.scripts]
+exercise-model-selection = "exercise_model_selection:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
